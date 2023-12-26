@@ -29,9 +29,7 @@
 	font-family:'billabong';
 	font-style: normal;
 	font-weight: normal;
-	src:url('../font/billabong.eot');
-	src:local('Noto Sans KR Thin'),
-		url('../font/billabong.eot?#iefix') format('embedded-opentype'),
+	src:local('billabong'),
 		url('../font/billabong.woff') format('woff');
 }
 
