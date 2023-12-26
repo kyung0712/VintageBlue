@@ -5,13 +5,57 @@
             gsap.timeline({})
             .to('.vintage_vid', {clipPath: "circle(100% at 50% 50%)", duration: 3, ease: 'power3.inOut'})
 
-            ScrollTrigger.create({
+            /* ScrollTrigger.create({
                 trigger: '.vintage',
                 start: 'top top',
                 end: 'bottom top',
                 pin: '.vintage',
                 pinSpacing: false
-            });
+            }); */
+
+            function scrollHandler(e){
+                scrollTop = win.scrollTop();
+                if(scrollTop >= topFixOffset && scrollTop < botFixOffset){
+                    canScroll = false;
+                    if(tween == false){
+                        tween = true;
+                        if(e.deltaY > 0){
+                            TweenMax.to('html, body', 0.5, {scrollTop: botFixOffset, onComplete: function(){
+                                $('#'+wrap_id).trigger('wheel');
+                                tween = false;
+                            }});
+                        }else if(e.deltaY < 0){
+                            tween = true;
+                            TweenMax.to('html, body', 0.5, {scrollTop: topFixOffset, onComplete: function(){
+                                $('#'+wrap_id).trigger('wheel');
+                                tween = false;
+                            }});
+                        }else{
+                            tween = false;
+                        }
+                    }
+                }else{
+                    canScroll = true;
+                }
+                if(!canScroll || tween){
+                    e.preventDefault();
+                    e.stopPropagation();
+                }
+            }
+            function resizeHandler(e){
+                topFixOffset = 0;
+                botFixOffset = $(top_class).height();
+            }
+            var tween = false;
+            var canScroll = true;
+            var topFixOffset = 0;
+            var top_class = '.vintage'
+            var botFixOffset = $(top_class).height();
+            var wrap_id = 'wrap'
+            var wrap = document.getElementById(wrap_id);
+            wrap.addEventListener('wheel', scrollHandler);
+            win.load(scrollHandler);
+            win.resize(resizeHandler);
         }());
 
         (function(){//showcase
@@ -21,8 +65,8 @@
                     top: 'top 80%',
                 }
             })
-            .from('.showcase .layer_title', {opacity: 0, x: 100, duration: 0.7}, 0)
-            .from('.showcase .layer_subtitle', {opacity: 0, x: 100, duration: 0.7}, 0.2)
+            .from('.showcase .layer_title', {opacity: 0, x: 130, duration: 0.8}, 0)
+            .from('.showcase .layer_subtitle', {opacity: 0, x: 130, duration: 0.8}, 0.2)
             .from('.showcase_link', {opacity: 0, x: 100, duration: 0.7}, 0.4)
 
             gsap.fromTo('.neon_pillow', {
