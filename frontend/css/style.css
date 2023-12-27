@@ -79,6 +79,7 @@ body{max-width: 2560px;min-width: 1260px;margin: 0 auto;line-height: 1.3;font-fa
 .bg-full{position: absolute;top: 0;left: 0;width: 100%;height: 100%;}
 .bg-cover{background-repeat: no-repeat;background-size: cover;background-position: center;}
 .inner{width: 1200px;margin: 0 auto;}
+.inner_1260{width: 1260px;margin: 0 auto;}
 .flex{display: flex;}
 .flex-center{display:flex;justify-content: center;align-items: center}
 .flex-vcenter{display:flex;justify-content: space-between;align-items: center}
@@ -87,6 +88,7 @@ body{max-width: 2560px;min-width: 1260px;margin: 0 auto;line-height: 1.3;font-fa
 .layer_title{font-size: 48px;font-weight: 700;padding-bottom: 15px;}
 .layer_subtitle{font-size: 22px;}
 .layer_text{font-size: 18px;}
+.f_bold{font-weight: 700;}
 
 /* header */
 header{position: fixed;z-index: 1;top: 0;left: 0;width: 100%;height: 95px;box-sizing: border-box;border-bottom: 1px solid rgba(255,255,255,0.15);background-color: rgba(0,0,0,0.1);}
