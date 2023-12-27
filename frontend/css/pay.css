@@ -1,20 +1,22 @@
 /* order */
-.order{padding-top: 95px;}
-.order .inner_1260 > div{width: 630px;}
-.order_thumb{height: 630px;background-color: rgba(0,0,0,0.02);}
+.order{padding-top: 80px;}
+.order .inner > div{width: 600px;}
+.order_thumb{height: 600px;background-color: rgba(0,0,0,0.02);}
 .order_thumb_img{background-image: url('../img/common/polaroid_camera.png');transform: scale(0.8);}
-.order_detail{box-sizing: border-box;padding: 60px 50px 50px 50px;}
+.order_detail{box-sizing: border-box;padding: 50px 50px 50px 50px;}
 .order_detail_head{padding-bottom: 20px;border-bottom: 1px solid rgba(43,57,112,0.2);}
-.order_detail_head h2{padding-bottom: 5px;font-weight: 700;font-size: 24px;}
-.order_detail_text{width: 90%;padding: 20px 0 40px;}
-.order_detail span{padding-right: 10px;line-height: 20px;}
+.order_detail_head h2{padding-bottom: 3px;font-weight: 700;font-size: 24px;}
+.order_detail_text{width: 90%;padding: 20px 0 30px;}
+.order_detail_info li{font-size: 13px;}
+.order_detail span{padding-right: 6px;line-height: 18px;}
 .order_total{margin-top: 20px;padding: 20px 0 40px;border-top: 1px solid rgba(43,57,112,0.2)}
 .order_total p{font-size: 17px;}
 .order_detail button{width: 50%;height: 40px;box-sizing: border-box;border: 1px solid rgba(43,57,112,0.2);font-weight: 700;}
-.order_detail button.buy_btn{margin-right: 10px;background-color: #2b3979;color: #fff;}
+.order_detail button.buy_btn{margin-right: 8px;background-color: #2b3979;color: #fff;}
 
 /* order_board */
-.ob_tabs{margin-top: 100px;margin-bottom: 40px;font-weight: 700;}
+.order_board{padding: 80px 0 100px;}
+.ob_tabs{margin-bottom: 40px;font-weight: 700;}
 .ob_tabs li{width: 33.3333%;height: 45px;text-align: center;line-height: 40px;border-bottom: 1px solid rgba(43,57,112,0.2);}
 .order_board > div{box-sizing: border-box;}
 .ob_detail{padding: 0 150px;}
