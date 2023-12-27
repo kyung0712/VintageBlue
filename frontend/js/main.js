@@ -3,7 +3,7 @@
 
         (function(){//vintage
             gsap.timeline({})
-            .to('.vintage_vid', {clipPath: "circle(100% at 50% 50%)", duration: 3, ease: 'power3.inOut'})
+            .to('.vintage_vid', {clipPath: "circle(100% at 50% 50%)", duration: 2.5, ease: 'power3.inOut'})
 
             /* ScrollTrigger.create({
                 trigger: '.vintage',
