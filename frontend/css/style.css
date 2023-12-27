@@ -66,7 +66,7 @@ button{display:block;margin:0;padding:0;border:0;background-color:transparent;fo
 a{font-size:inherit;color:inherit;text-decoration:none}
 strong, em{font-size:inherit;line-height:inherit}
 
-body{max-width: 2560px;min-width: 1260px;margin: 0 auto;line-height: 1.3;font-family: 'SUIT-Regular';background-color: #f1f3f6;color: #2b3979;}
+body{max-width: 2560px;min-width: 1260px;margin: 0 auto;line-height: 1.3;font-family: 'SUIT-Regular';font-size: 15px;background-color: #f1f3f6;color: #2b3979;}
 /* body{cursor: url('../img/common/cursor.png') 60 40, auto} */
 #wrap{position: relative;}
 
@@ -85,9 +85,9 @@ body{max-width: 2560px;min-width: 1260px;margin: 0 auto;line-height: 1.3;font-fa
 .flex-vcenter{display:flex;justify-content: space-between;align-items: center}
 .t_center{text-align: center;}
 
-.layer_title{font-size: 48px;font-weight: 700;padding-bottom: 15px;}
-.layer_subtitle{font-size: 22px;}
-.layer_text{font-size: 18px;}
+.layer_title{font-size: 47px;font-weight: 700;padding-bottom: 15px;}
+.layer_subtitle{font-size: 20px;}
+.layer_text{font-size: 15px;}
 .f_bold{font-weight: 700;}
 
 /* header */

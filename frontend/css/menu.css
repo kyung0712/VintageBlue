@@ -6,7 +6,8 @@
 /* menu */
 .menu{padding: 100px 0;}
 .menu_lists{display: flex;flex-wrap: wrap;justify-content: center;}
-.menu_lists li{width: 300px;margin: 30px;}
+.menu_lists li{width: 300px;margin-right: 20px;margin-bottom: 40px;}
+.menu_lists li:nth-child(4n){margin-right: 0;}
 .menu_list_wrapper{position: relative;height: 300px;}
 .menu_list_wrapper > a{display: block;height: 100%;background-color: rgba(0,0,0,0.02);}
 .menu_list_img{transform: scale(0.9);transition: 0.4s;}
@@ -28,5 +29,5 @@
 .menu_lists li:nth-child(odd) .menu_list_hover{background-image: url('../img/menu/pattern1.png');}
 .menu_lists li:nth-child(even) .menu_list_hover{background-image: url('../img/menu/pattern2.png');}
 .menu_lists li:hover .menu_list_hover{opacity: 1;}
-.menu_list_name{padding-bottom: 3px;font-weight: 700;font-size: 18px;}
-.menu_list_cost{font-weight: 700;color: #000;}
+.menu_list_name{font-weight: 700;font-size: 16px;}
+.menu_list_cost{font-weight: 700;color: #000;font-size: 14px}
