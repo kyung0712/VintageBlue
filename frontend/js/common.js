@@ -64,23 +64,40 @@ var win =  $(window), doc = $(document);
         var halfHeight = winHeight / 1.3;
 
         if($('.sub_visual_wrap').length){
-            gsap.timeline({delay: 0.2})
+            gsap.timeline({delay: 0.3})
             .fromTo('.sub_visual_wrap', {height: winHeight}, {height: halfHeight, duration: 1}, 0)
         }
     }());
 
+    (function() {//btn_top
+        $(window).scroll(function(){
+            if ($(this).scrollTop() > 300){
+                $('.btn_top').show();
+            } else{
+                $('.btn_top').hide();
+            }
+        });
+    
+        $('.btn_top').click(function(e){
+            $('html, body').animate({scrollTop: 0},500);
+        });
 
-    $(window).scroll(function(){
-        if ($(this).scrollTop() > 300){
-            $('.btn_top').show();
-        } else{
-            $('.btn_top').hide();
+        function scrollHandler() {
+            var scrollTop = win.scrollTop(),
+                fixOffset = doc.innerHeight() - win.innerHeight() - $diffElems.innerHeight();
+
+            if(scrollTop > fixOffset) $headElems.css({bottom: scrollTop - fixOffset + $headElems.bottom});
+            else $headElems.css({bottom: $headElems.bottom});
         }
-    });
+        var $headElems = $('.btn_top'),
+            $diffElems = $('footer');
 
-    $('.btn_top').click(function(e){
-        $('html, body').animate({scrollTop: 0},500);
-    });
+        $headElems.heigth = parseInt($headElems.css('height'), 10);
+        $headElems.bottom = parseInt($headElems.css('bottom'), 10);
+
+        win.scroll(scrollHandler).load(scrollHandler);
+        scrollHandler();
+    }());
 
 }(jQuery));
 

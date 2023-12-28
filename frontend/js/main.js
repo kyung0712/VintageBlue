@@ -93,9 +93,9 @@
                     end: 'bottom top',
                     scrub: 0.5
                 },
-                x: 50,
-                y: 10,
-                scale: 1.4
+                x: 0,
+                y: -15,
+                scale: 1.7
             });
 
             gsap.to('.showcase_finds', {

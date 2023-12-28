@@ -7,8 +7,8 @@
 .order_detail_head{padding-bottom: 20px;border-bottom: 1px solid rgba(43,57,112,0.2);}
 .order_detail_head h2{padding-bottom: 3px;font-weight: 700;font-size: 24px;}
 .order_detail_text{width: 90%;padding: 20px 0 30px;}
-.order_detail_info li{font-size: 13px;}
-.order_detail span{padding-right: 6px;line-height: 18px;}
+.order_detail_info li{font-size: 12px;}
+.order_detail span{padding-right: 5px;line-height: 18px;}
 .order_total{margin-top: 20px;padding: 20px 0 40px;border-top: 1px solid rgba(43,57,112,0.2)}
 .order_total p{font-size: 17px;}
 .order_detail button{width: 50%;height: 40px;box-sizing: border-box;border: 1px solid rgba(43,57,112,0.2);font-weight: 700;}

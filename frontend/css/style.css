@@ -68,7 +68,7 @@ strong, em{font-size:inherit;line-height:inherit}
 
 body{max-width: 2560px;min-width: 1260px;margin: 0 auto;line-height: 1.3;font-family: 'SUIT-Regular';font-size: 15px;background-color: #f1f3f6;color: #2b3979;}
 /* body{cursor: url('../img/common/cursor.png') 60 40, auto} */
-#wrap{position: relative;}
+#wrap{position: relative;overflow: hidden;}
 
 .over_h{overflow: hidden;}
 .rel{position: relative}
