@@ -126,6 +126,7 @@
                 centeredSlides: true,
                 autoplay: {
                     delay: 2500,
+                    disableOnInteraction: false,
                 },
                 parallax: true,
                 speed: 700,
