@@ -26,7 +26,7 @@
 
 /* finds */
 .finds{padding-top: 100px;}
-.finds_slide{max-width: 1380px;margin: 0 auto;}
+/* .finds_slide{max-width: 1380px;margin: 0 auto;} */
 .finds_slide .swiper-container{padding: 120px 0 30px;}
 .finds_slide .swiper-slide{width: 460px;}
 .finds_slide .swiper-slide > div > img{transform: scale(0.85);transition: 1s;}

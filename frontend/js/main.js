@@ -20,13 +20,13 @@
                     if(tween == false){
                         tween = true;
                         if(e.deltaY > 0){
-                            TweenMax.to('html, body', 0.5, {scrollTop: botFixOffset, onComplete: function(){
+                            TweenMax.to('html, body', 1, {scrollTop: botFixOffset, onComplete: function(){
                                 $('#'+wrap_id).trigger('wheel');
                                 tween = false;
                             }});
                         }else if(e.deltaY < 0){
                             tween = true;
-                            TweenMax.to('html, body', 0.5, {scrollTop: topFixOffset, onComplete: function(){
+                            TweenMax.to('html, body', 1, {scrollTop: topFixOffset, onComplete: function(){
                                 $('#'+wrap_id).trigger('wheel');
                                 tween = false;
                             }});
