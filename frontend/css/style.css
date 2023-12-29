@@ -101,7 +101,7 @@ header .bi{position: absolute;z-index: 1;top: 19px;left: 0;right: 0;width: 580px
 /* nav */
 nav{z-index: 1;position: absolute;top: 150px;left: 30px;}
 nav ul li a{font-family: 'LeferiPoint-WhiteObliqueA';font-size: 40px;color: #fff}
-nav ul li:nth-child(4) a{color: #a81700;font-weight: 700;}
+nav ul li.holiday_event a{color: #a81700;font-weight: 700;}
 nav ul li.insta_link a{font-family:'billabong';font-size: 50px;background: radial-gradient(circle farthest-corner at 32% 106%,#ffe17d 0%,#ffcd69 10%,#fa9137 28%,#eb4141 42%,transparent 82%) , linear-gradient(135deg,#234bd7 12%,#c33cbe 58%);
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;}

@@ -11,9 +11,8 @@
 
 <nav>
     <ul>
-        <!-- <li><a href="#">best</a>/a></li> -->
-        <li><a href="#">all items</a></li><br>
-        <li><a href="#">holiday event</a></li>
+        <li><a href="../menu.jsp">all items</a></li><br>
+        <li class="holiday_event"><a href="#">holiday event</a></li>
         <!-- <li><a href="#">resell</a></li> -->
         <li><a href="#">faq</a></li>
         <li class="insta_link"><a href="#"><i class="fa-brands fa-instagram"></i> VintageBlue</a></li>
