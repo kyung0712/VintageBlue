@@ -15,19 +15,19 @@
           
         }());
 
-        const swiper = new Swiper('.swiper', {
-  
-            // If we need pagination
-            pagination: {
-              el: '.swiper-pagination',
+        const swiper = new Swiper('.movie_slide_wrpper .swiper-container', {
+            loop: true,
+            centeredSlides: true,
+            slidesPerView: 'auto',
+            speed: 1000,
+            autoplay: {
+                delay: 600,
+                disableOnInteraction: false,
             },
-          
-            // Navigation arrows
             navigation: {
-              nextEl: '.swiper-button-next',
-              prevEl: '.swiper-button-prev',
+              nextEl: '.movie_slide_wrpper .swiper-button-next',
+              prevEl: '.movie_slide_wrpper .swiper-button-prev',
             },
-         
           });
        
     
