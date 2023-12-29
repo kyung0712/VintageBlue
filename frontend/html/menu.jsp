@@ -1,36 +1,4 @@
-<!DOCTYPE html>
-<html lang="ko">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=1260">
-    <title>Vintage Blue</title>
-    <link rel="stylesheet" href="../css/style.css">
-    <link rel="stylesheet" href="../css/menu.css">
-    <script src="https://kit.fontawesome.com/b632cb621d.js" crossorigin="anonymous"></script>
-</head>
-<body>
-
-<div id="wrap">
-
-    <header>
-        <a href="/" class="bi">Vintage Blue</a>
-        <ul class="header_user">
-            <li><a href="#"><i class="fa-solid fa-magnifying-glass"></i></li>
-            <li><a href="#"><i class="fa-regular fa-user"></i></a></li>
-            <li><a href="#"><i class="fa-solid fa-cart-shopping"></i></li>
-        </ul>
-    </header>
-
-    <nav>
-        <ul>
-            <li><a href="#">best</a></li>
-            <li><a href="#">all items</a></li><br>
-            <li><a href="#">holiday event</a></li>
-            <li><a href="#">resell</a></li>
-            <li><a href="#">faq</a></li>
-            <li class="insta_link"><a href="#"><i class="fa-brands fa-instagram"></i> VintageBlue</a></li>
-        </ul>
-    </nav>
+<jsp:include page="../inc/top.jsp"/>
 
     <!-- shop start -->
     <section class="shop rel over_h">
@@ -187,32 +155,5 @@
     </section>
     <!-- //menu end -->
 
-    <footer>
-        <div class="flex">
-            <div></div>
-            <div>
-                <p class="footer_info">
-                    PM 13:00-PM 18:00 Mon-Fri(Sat, Sun, Holiday off)<br>
-                    CONTACT KAKAOTALK VINTAGEBLUE<br>
-                    ADDRESS SEOUL, REPUBLIC OF KOREA<br>
-                    CEO TEAM 5<br>
-                    BUSINESS LICENSE / 243-00-33253<br>
-                    MAIL-ORDER LICENSE / 2023-BORAMAE-2999<br><br>
-                    COPYRIGHT @ <span class="f_bold">VINTAGEBLUE</span> ALL RIGHTS RESERVED.
-                </p>
-            </div>
-        </div>
-    </footer>
-
-    <a href="#" class="btn_top flex-center">
-        <i class="fa-solid fa-angle-up"></i>
-    </a>
+<jsp:include page="../inc/bottom.jsp"/>
     
-</div>
-
-<script src="../js/jquery-1.12.0.min.js"></script>
-<script src="../js/common.js"></script>
-<script src="../js/menu.js"></script>
-    
-</body>
-</html>

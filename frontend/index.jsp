@@ -1,8 +1,9 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+
 <!DOCTYPE html>
 <html lang="ko">
 <head>
     <meta charset="UTF-8">
-    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
     <meta name="viewport" content="width=1260">
     <meta property="og:image" href="img/og.png">
     <link rel="shortcut icon" href="img/favicon.ico">
@@ -14,26 +15,8 @@
 <body>
 
 <div id="wrap">
-
-    <header>
-        <a href="/" class="bi">Vintage Blue</a>
-        <ul class="header_user">
-            <li><a href="#"><i class="fa-solid fa-magnifying-glass"></i></li>
-            <li><a href="#"><i class="fa-regular fa-user"></i></a></li>
-            <li><a href="#"><i class="fa-solid fa-cart-shopping"></i></li>
-        </ul>
-    </header>
-
-    <nav>
-        <ul>
-            <li><a href="#">best</a></li>
-            <li><a href="#">all items</a></li><br>
-            <li><a href="#">holiday event</a></li>
-            <li><a href="#">resell</a></li>
-            <li><a href="#">faq</a></li>
-            <li class="insta_link"><a href="#"><i class="fa-brands fa-instagram"></i> VintageBlue</a></li>
-        </ul>
-    </nav>
+    
+    <jsp:include page="inc/header.jsp"/>
 
     <!-- vintage start -->
     <section class="vintage rel over_h">
@@ -153,7 +136,7 @@
     <!-- //gallery end -->
 
     <!-- record start -->
-    <div class="record rel over_h">
+    <section class="record rel over_h">
         <div class="record_pattern bg-full"></div>
         <div class="record_svg_wrap bg-full">
             <svg width="100%" height="100%">
@@ -164,7 +147,7 @@
                 <image mask="url(#record_mask)" xlink:href="img/common/vin2.png" x="0" y="0"></image>
             </svg>
         </div>
-    </div>
+    </section>
     <!-- //record end -->
 
     <!-- inter start -->
@@ -205,26 +188,7 @@
     </section>
     <!-- //inter end -->
 
-    <footer>
-        <div class="flex">
-            <div></div>
-            <div>
-                <p class="footer_info">
-                    PM 13:00-PM 18:00 Mon-Fri(Sat, Sun, Holiday off)<br>
-                    CONTACT KAKAOTALK VINTAGEBLUE<br>
-                    ADDRESS SEOUL, REPUBLIC OF KOREA<br>
-                    CEO TEAM 5<br>
-                    BUSINESS LICENSE / 243-00-33253<br>
-                    MAIL-ORDER LICENSE / 2023-BORAMAE-2999<br><br>
-                    COPYRIGHT @ <span class="f_bold">VINTAGEBLUE</span> ALL RIGHTS RESERVED.
-                </p>
-            </div>
-        </div>
-    </footer>
-
-    <a href="#" class="btn_top flex-center">
-        <i class="fa-solid fa-angle-up"></i>
-    </a>
+    <jsp:include page="inc/footer.jsp"/>
     
 </div>
 
