@@ -12,9 +12,25 @@
             gsap.fromTo('.dragon1', {y: 5, x: 5, rotate: 5}, {y: -5, x: -5, rotate: -5, repeat: -1, duration: 0.8, yoyo: 1})
 
 
-
+          
         }());
 
+        const swiper = new Swiper('.swiper', {
+  
+            // If we need pagination
+            pagination: {
+              el: '.swiper-pagination',
+            },
+          
+            // Navigation arrows
+            navigation: {
+              nextEl: '.swiper-button-next',
+              prevEl: '.swiper-button-prev',
+            },
+         
+          });
+       
+    
         (function(){//banner
 
             gsap.timeline({
