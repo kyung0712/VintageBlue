@@ -6,11 +6,10 @@
 .showcase_finds{background-color: #2b3979;}
 /* showcase */
 .showcase{height: 850px;display: flex;justify-content: center;color: #f1f3f6;text-wrap: nowrap;}
-/* .showcase_bg{background: url('../img/main/snow3.png') no-repeat center / cover;opacity: 0.2;} */
 .showcase .layer_title{padding-top: 120px;}
 .showcase_link{display: flex;justify-content: center;width: 130px;height: 40px;margin-top: 30px;line-height: 35px;box-sizing: border-box;border: 1px solid rgba(255,255,255,0.2);animation: showcase_link 1s linear alternate infinite;}
 .neon_pillow{bottom: 0;margin-left: -100px;}
-.table_lamp{bottom: 120px;margin-left: 100px;transform: rotateY(180deg);}
+.table_lamp{bottom: 120px;margin-left: 100px;}
 .showcase_flow{bottom: 60px;left: 0;width: 100%;height: 130px;font-size: 100px;font-family: 'LeferiPoint-BlackObliqueA';animation: showcase_flow 15s linear infinite;
 -webkit-text-stroke-width: 1px;
 -webkit-text-stroke-color: rgba(255,255,255,0.2);
@@ -27,9 +26,11 @@
 
 /* finds */
 .finds{padding-top: 100px;}
+/* .finds_slide{max-width: 1380px;margin: 0 auto;} */
 .finds_slide .swiper-container{padding: 120px 0 30px;}
 .finds_slide .swiper-slide{width: 460px;}
-.finds_slide .swiper-slide > div > img{transform: scale(0.9);}
+.finds_slide .swiper-slide > div > img{transform: scale(0.85);transition: 1s;}
+.finds_slide .swiper-slide.swiper-slide-active > div > img{transform: scale(1);}
 
 /* gallery */
 .gallery{padding-top: 100px;background-color: #f1f3f6;}

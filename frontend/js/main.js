@@ -3,7 +3,7 @@
 
         (function(){//vintage
             gsap.timeline({})
-            .to('.vintage_vid', {clipPath: "circle(100% at 50% 50%)", duration: 3, ease: 'power3.inOut'})
+            .to('.vintage_vid', {clipPath: "circle(100% at 50% 50%)", duration: 2.5, ease: 'power3.inOut'})
 
             /* ScrollTrigger.create({
                 trigger: '.vintage',
@@ -20,13 +20,13 @@
                     if(tween == false){
                         tween = true;
                         if(e.deltaY > 0){
-                            TweenMax.to('html, body', 0.5, {scrollTop: botFixOffset, onComplete: function(){
+                            TweenMax.to('html, body', 1, {scrollTop: botFixOffset, onComplete: function(){
                                 $('#'+wrap_id).trigger('wheel');
                                 tween = false;
                             }});
                         }else if(e.deltaY < 0){
                             tween = true;
-                            TweenMax.to('html, body', 0.5, {scrollTop: topFixOffset, onComplete: function(){
+                            TweenMax.to('html, body', 1, {scrollTop: topFixOffset, onComplete: function(){
                                 $('#'+wrap_id).trigger('wheel');
                                 tween = false;
                             }});
@@ -93,9 +93,9 @@
                     end: 'bottom top',
                     scrub: 0.5
                 },
-                x: 50,
-                y: 10,
-                scale: 1.4
+                x: 0,
+                y: -15,
+                scale: 1.7
             });
 
             gsap.to('.showcase_finds', {
@@ -126,6 +126,7 @@
                 centeredSlides: true,
                 autoplay: {
                     delay: 2500,
+                    disableOnInteraction: false,
                 },
                 parallax: true,
                 speed: 700,
