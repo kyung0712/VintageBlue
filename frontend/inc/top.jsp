@@ -11,8 +11,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=1260">
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <meta property="og:image" href="../img/og.png">
-    <link rel="shortcut icon" href="../img/favicon.ico">
+    <meta property="og:image" href="../img/common/berry.png">
+    <link rel="shortcut icon" href="../img/common/favicon.ico">
     <title>Vintage Blue</title>
     <link rel="stylesheet" href="../css/style.css">
     <script src="https://kit.fontawesome.com/b632cb621d.js" crossorigin="anonymous"></script>

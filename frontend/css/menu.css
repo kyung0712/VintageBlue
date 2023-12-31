@@ -10,7 +10,7 @@
 .menu_lists li:nth-child(4n){margin-right: 0;}
 .menu_list_wrapper{position: relative;height: 300px;}
 .menu_list_wrapper > a{display: block;height: 100%;background-color: rgba(0,0,0,0.02);}
-.menu_list_img{transform: scale(0.9);transition: 0.4s;}
+.menu_list_img{transform: scale(0.9);transition: 0.5s;}
 .menu_lists li:hover .menu_list_img{transform: scale(1);}
 .menu_list_img, .menu_list_hover{position: absolute;top: 0;left: 0;width: 100%;height: 100%;background-repeat: no-repeat;background-position: center;background-size: cover;}
 .menu_lists li:nth-child(1) .menu_list_img{background-image: url('../img/common/ocean_goblet.png');}

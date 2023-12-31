@@ -5,8 +5,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=1260">
-    <meta property="og:image" href="img/og.png">
-    <link rel="shortcut icon" href="img/favicon.ico">
+    <meta property="og:image" href="img/common/berry.png">
+    <link rel="shortcut icon" href="img/common/favicon.ico">
     <title>Vintage Blue</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/main.css">
@@ -44,9 +44,16 @@
                     Capture the allure of yesteryears with our curated selection.<br>
                     where style meets history effortlessly!
                 </p>
-                <a href="#" class="showcase_link">more</a>
+                <a href="${pageContext.request.contextPath}/VintageBlue/frontend/html/menu.jsp" class="showcase_link">more</a>
             </div>
-            <p class="showcase_flow abs">VINTAGE SHOWCASE VINTAGE SHOWCASE VINTAGE SHOWCASE VINTAGE SHOWCASE</p>
+            <div class="showcase_flow abs">
+                <div class="swiper-container">
+                    <ul class="swiper-wrapper">
+                        <li class="swiper-slide">VINTAGE SHOWCASE</li>
+                        <li class="swiper-slide">VINTAGE SHOWCASE</li>
+                    </ul>
+                </div>
+            </div>
             <div class="neon_pillow l50"><img src="img/common/neon_pillow.png" alt="네온 베개"></div>
             <div class="table_lamp l50"><img src="img/common/burgendy_lamp.png" alt="테이블 조명"></div>
         </section>

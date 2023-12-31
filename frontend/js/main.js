@@ -5,14 +5,6 @@
             gsap.timeline({})
             .to('.vintage_vid', {clipPath: "circle(100% at 50% 50%)", duration: 2.5, ease: 'power3.inOut'})
 
-            /* ScrollTrigger.create({
-                trigger: '.vintage',
-                start: 'top top',
-                end: 'bottom top',
-                pin: '.vintage',
-                pinSpacing: false
-            }); */
-
             function scrollHandler(e){
                 scrollTop = win.scrollTop();
                 if(scrollTop >= topFixOffset && scrollTop < botFixOffset){
@@ -68,6 +60,10 @@
             .from('.showcase .layer_title', {opacity: 0, x: 130, duration: 0.8}, 0)
             .from('.showcase .layer_subtitle', {opacity: 0, x: 130, duration: 0.8}, 0.2)
             .from('.showcase_link', {opacity: 0, x: 100, duration: 0.7}, 0.4)
+
+            new FlowSlider($('.showcase_flow .swiper-container'), {
+                pps: 100,
+            });
 
             gsap.fromTo('.neon_pillow', {
                 y: -40,
