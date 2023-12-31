@@ -25,8 +25,8 @@
             </tr>
          </tbody>
       </table>
-      <button type="submit" class="form_btn" onclick="">로그인</button>
-      <a href="${pageContext.request.contextPath}/VintageBlue/frontend/html/sineup.jsp" class="link_sineup">회원가입</a>
+      <button type="submit" class="form_btn" onclick="login()">로그인</button>
+      <a href="${pageContext.request.contextPath}/VintageBlue/frontend/html/signup.jsp" class="link_sineup">회원가입</a>
    </form>
    <!-- //form end -->
 

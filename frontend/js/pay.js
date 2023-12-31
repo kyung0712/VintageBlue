@@ -19,3 +19,16 @@
         
     });
 })(jQuery);
+
+function submitComment() {
+    var commentInput = document.getElementById('commentInput');
+    var commentList = document.getElementById('commentList');
+  
+    var comment = commentInput.value;
+  
+    var newComment = document.createElement('li');
+    newComment.innerText = comment;
+    commentList.appendChild(newComment);
+  
+    commentInput.value = "";
+  }

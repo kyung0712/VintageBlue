@@ -74,7 +74,7 @@
             </tr> -->
          </tbody>
       </table>
-      <button type="submit" class="form_btn" onclick="">가입하기</button>
+      <button type="submit" class="form_btn" onclick="signup()">가입하기</button>
    </form>
    <!-- //form end -->
 
