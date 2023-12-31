@@ -47,18 +47,10 @@
     <!-- order_board start -->
     <section class="order_board">
         <div class="inner">
-            <!-- <ul class="ob_tabs flex">
-                <li><a href="#none">상세정보</a></li>
-                <li><a href="#none">Q&A (0)</a></li>
-            </ul>
-            <div class="ob_detail">
-                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.</p>
-            </div> -->
             <div class="ob_qna">
                 <p class="f_bold">Q&A (0)</p>
                 <p class="ob_comment">구매하시려는 상품에 대해 궁금한 점이 있으면 문의해주세요.</p>
                 <div class="flex">
-                    <!-- <button type="button" class="btn_type1">상품문의</button> -->
                     <button type="button">1:1 문의</button>
                 </div>
                 <div class="ob_content">
