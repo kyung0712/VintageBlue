@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,800;0,900;1,900&display=swap');
 
 /* slogan */
-/* .slogan{padding: 230px 0 100px;background-color: #e6a5b7;} */
 .slogan{padding: 230px 0 100px;background-color: #c67886;}
 .slogan_row{position: relative;height: 85px;}
 .left, .right {position: absolute;top: 0;left: 50%;width: 50vw;overflow: hidden;}
