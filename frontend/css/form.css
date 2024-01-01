@@ -3,8 +3,7 @@ nav{visibility: hidden;}
 /* form */
 .form_sineup, .form_login{width: 400px;margin: 250px auto 100px;}
 .form_table{width: 100%;table-layout: fixed}
-.form_table label{position: absolute;width: 1px;height: 1px;psadding: 0;margin: -1px;overflow: hidden;clip: rect(0, 0, 0, 0);white-space: nowrap;border: 0;}
-/* .form_table td{padding: 2.5px 0;} */
+.form_table label{position: absolute;width: 1px;height: 1px;padding: 0;margin: -1px;overflow: hidden;clip: rect(0, 0, 0, 0);white-space: nowrap;border: 0;}
 .form_table td{color: #000}
 .form_table input{width: 100%;height: 45px;padding: 0 20px;border: 1px solid #ddd;background: #fff;color: #000;
 -webkit-box-sizing: border-box;
