@@ -1,21 +1,27 @@
 @font-face {
     font-family: 'BookkMyungjo-Bd';
     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.0/BookkMyungjo-Bd.woff2') format('woff2');
-    font-weight: 700;
+    font-weight: 60;
     font-style: normal;
 }
 
 /* event */
-.event{height: 80vh;background-color: #27397D;}
+/* .event{height: 80vh;background-color: #27397D;} */
 /* .event_text{font-family: 'BookkMyungjo-Bd';}
+
+/*video*/
+.video{height: 80vh; background-color: #27397D;}
+
+
+
 
 .event_content li:nth-child(1){font-size: 25px;color: aliceblue;}
 .event_content li:nth-child(2){font-size: 50px;}
 .event_content li:nth-child(3){color: aliceblue;}
 
-.dragon1{top: 0;right: 0;}
+/* .dragon1{top: 0;right: 0;}
 .dragon2{bottom: 0;right: 100px;}
-.dragon3{top: 100px;left: 100px;}
+.dragon3{top: 100px;left: 100px;} */
 
 .menu{display: flex;width: 800px;margin: 0 auto;}
 .menu li{width: 200px;height: 200px;border: 1px solid;} */
@@ -33,9 +39,15 @@
 .movie_slide_wrpper .swiper-button{position: absolute;top: 50%;margin-top: -25px;left: 50%;}
 .movie_slide_wrpper .swiper-button-prev i{font-size: 50px;margin-left: -600px;transform: rotateY(-180deg);}
 .movie_slide_wrpper .swiper-button-next i{font-size: 50px;margin-left: 600px;}
-
+.menu_list_name{padding-top: 10px;font-weight: 700;font-size: 20px;}
+.menu_list_cost{font-weight: 700;color: #000;font-size: 18px}
+.main_text{padding-top: 50px; padding-bottom: 30px; font-weight: 700; font-size: 50px;}
 /* menu */
 .menu_lists{display: flex;flex-wrap: wrap;}
+
+.cloud1{top: 0; right: 0;}
+.cloud2{bottom: 0; right: 100px;}
+.cloud3{top: 100px; left: 100px;}
 
 /* slide */
 /* body{
