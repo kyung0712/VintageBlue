@@ -12,9 +12,25 @@
             gsap.fromTo('.dragon1', {y: 5, x: 5, rotate: 5}, {y: -5, x: -5, rotate: -5, repeat: -1, duration: 0.8, yoyo: 1})
 
 
-
+          
         }());
 
+        const swiper = new Swiper('.movie_slide_wrpper .swiper-container', {
+            loop: true,
+            centeredSlides: true,
+            slidesPerView: 'auto',
+            speed: 1000,
+            autoplay: {
+                delay: 600,
+                disableOnInteraction: false,
+            },
+            navigation: {
+              nextEl: '.movie_slide_wrpper .swiper-button-next',
+              prevEl: '.movie_slide_wrpper .swiper-button-prev',
+            },
+          });
+       
+    
         (function(){//banner
 
             gsap.timeline({
